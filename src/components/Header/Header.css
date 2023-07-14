@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Sumana';
+    src: url(../../fonts/sumana.woff) format('woff');
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  flex-direction: column;
+}
+.header__logo {
+  width: 100px;
+}
+.header__header {
+  font-family: 'Sumana';
+ font-size: 44px;
+ margin: 5px 0 0;
+ line-height: 1;
+}

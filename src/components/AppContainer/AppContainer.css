@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../../fonts/roboto.woff) format('woff');
+}
+
+.container {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  margin-top: 50px;
+}
+
+.calories {
+  width: 250px;
+  border: 2px solid #F29279;
+  border-radius: 20px;
+  text-align: center;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.container h2 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 25px;
+}
